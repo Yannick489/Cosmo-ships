@@ -1,3 +1,3 @@
 # Cosmo-ships
  
-Arschloch
+Living Metal Armor
