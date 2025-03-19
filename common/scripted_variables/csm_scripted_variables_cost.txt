@@ -1,0 +1,9 @@
+#Archaeo Tech Shields size L
+@csm_shield_archaeo_2_large = 5000
+@csm_shield_archaeo_2_reg_large = 30
+@csm_shield_archaeo_2_cost_alloy_large = 150
+@csm_shield_archaeo_2_cost_artifacts_large = 16
+@csm_shield_archaeo_2_upkeep_alloys_large = 0.33
+@csm_shield_archaeo_2_upkeep_energy_large = 1.67
+@csm_shield_archaeo_2_bonus_large = 2500
+@csm_shield_archaeo_2_power_large = -650

@@ -1,0 +1,5 @@
+component_set = {
+	key = "ARCHAEO_SHIELD_CSM_2"
+
+	icon = "GFX_ship_part_archaeo_shield"
+}
