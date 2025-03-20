@@ -39,7 +39,7 @@ utility_component_template = { # Large
 		}
 		ship_shield_add = @csm_shield_archaeo_2_bonus_large
 	}
-	prerequisites = { "tech_archaeoshield" }
+	prerequisites = { "tech_csm_archaeo_shields_t2" }
 	component_set = "ARCHAEO_SHIELD_CSM_2"
 
 	ai_weight = {
@@ -108,7 +108,7 @@ utility_component_template = { # Medium
 		}
 		ship_shield_add = @csm_shield_archaeo_2_bonus_medium
 	}
-	prerequisites = { "tech_archaeoshield" }
+	prerequisites = { "tech_csm_archaeo_shields_t2" }
 	component_set = "ARCHAEO_SHIELD_CSM_2"
 
 	ai_weight = {
@@ -177,7 +177,7 @@ utility_component_template = { # Small
 		}
 		ship_shield_add = @csm_shield_archaeo_2_bonus_small
 	}
-	prerequisites = { "tech_archaeoshield" }
+	prerequisites = { "tech_csm_archaeo_shields_t2" }
 	component_set = "ARCHAEO_SHIELD_CSM_2"
 
 	ai_weight = {

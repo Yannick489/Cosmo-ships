@@ -26,7 +26,7 @@ utility_component_template = { # Large
 		ship_armor_add = @csm_armor_archaeo_2_bonus_large
 	}
 
-	prerequisites = { "tech_archaeoarmor" }
+	prerequisites = { "tech_csm_archaeo_armor_t2" }
 	component_set = "ARCHAEO_ARMOR_CSM_2"
 	resources = {
 		category = ship_components
@@ -93,7 +93,7 @@ utility_component_template = { # Medium
 		ship_armor_add = @csm_armor_archaeo_2_bonus_medium
 	}
 
-	prerequisites = { "tech_archaeoarmor" }
+	prerequisites = { "tech_csm_archaeo_armor_t2" }
 	component_set = "ARCHAEO_ARMOR_CSM_2"
 	resources = {
 		category = ship_components
@@ -160,7 +160,7 @@ utility_component_template = { # Small
 		ship_armor_add = @csm_armor_archaeo_2_bonus_small
 	}
 
-	prerequisites = { "tech_archaeoarmor" }
+	prerequisites = { "tech_csm_archaeo_armor_t2" }
 	component_set = "ARCHAEO_ARMOR_CSM_2"
 	resources = {
 		category = ship_components
