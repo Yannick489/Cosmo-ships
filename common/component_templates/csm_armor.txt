@@ -27,7 +27,7 @@ utility_component_template = { # Large
 	}
 
 	prerequisites = { "tech_archaeoarmor" }
-	component_set = "ARCHAEO_ARMOR"
+	component_set = "ARCHAEO_ARMOR_CSM_2"
 	resources = {
 		category = ship_components
 		cost = {
@@ -94,7 +94,7 @@ utility_component_template = { # Medium
 	}
 
 	prerequisites = { "tech_archaeoarmor" }
-	component_set = "ARCHAEO_ARMOR"
+	component_set = "ARCHAEO_ARMOR_CSM_2"
 	resources = {
 		category = ship_components
 		cost = {
@@ -161,7 +161,7 @@ utility_component_template = { # Small
 	}
 
 	prerequisites = { "tech_archaeoarmor" }
-	component_set = "ARCHAEO_ARMOR"
+	component_set = "ARCHAEO_ARMOR_CSM_2"
 	resources = {
 		category = ship_components
 		cost = {
