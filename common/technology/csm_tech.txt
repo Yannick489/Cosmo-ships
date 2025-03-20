@@ -1,0 +1,77 @@
+#T2 Archaeo Shields
+tech_csm_archaeo_shields_t2= {
+	area = physics
+	cost = @avctier10cost3
+	tier = 10
+	is_rare = yes
+	category = { field_manipulation }
+	ai_update_type = all	
+	prerequisites = { "tech_avc_ship_armor_9" }
+	weight = @avctier10weight3
+	
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_trait_in_council = { TRAIT = leader_trait_expertise_materials }
+				has_trait_in_council = { TRAIT = leader_trait_expertise_materials_2 }
+				has_trait_in_council = { TRAIT = leader_trait_expertise_materials_3 }
+			}
+		}
+		modifier = {
+			factor = 1.5
+			is_specialist_subject_type = { TYPE = bulwark }
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_trait_in_council = { TRAIT = leader_trait_expertise_materials }
+				has_trait_in_council = { TRAIT = leader_trait_expertise_materials_2 }
+				has_trait_in_council = { TRAIT = leader_trait_expertise_materials_3 }
+			}
+		}
+	}
+}
+
+#T2 Archaeo Armor
+tech_csm_archaeo_armor_t2= {
+	area = engineering
+	cost = @avctier10cost3
+	tier = 10
+	is_rare = yes
+	category = { materials }
+	ai_update_type = all	
+	prerequisites = { "tech_avc_ship_armor_9" }
+	weight = @avctier10weight3
+	
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_trait_in_council = { TRAIT = leader_trait_expertise_materials }
+				has_trait_in_council = { TRAIT = leader_trait_expertise_materials_2 }
+				has_trait_in_council = { TRAIT = leader_trait_expertise_materials_3 }
+			}
+		}
+		modifier = {
+			factor = 1.5
+			is_specialist_subject_type = { TYPE = bulwark }
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_trait_in_council = { TRAIT = leader_trait_expertise_materials }
+				has_trait_in_council = { TRAIT = leader_trait_expertise_materials_2 }
+				has_trait_in_council = { TRAIT = leader_trait_expertise_materials_3 }
+			}
+		}
+	}
+}
