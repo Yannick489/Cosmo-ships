@@ -2,9 +2,9 @@
  
 Tech für T2 Archaeos
 
-Living Metal armor
+Living Metal armor, Strikecraft
 Nanites Armor
 Zro Schilde
 Dark Matter Schilde
 
-Bio Armor?
+Bio Armor, Strikcraft
