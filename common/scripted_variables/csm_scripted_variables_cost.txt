@@ -59,3 +59,29 @@
 @csm_armor_archaeo_2_upkeep_energy_small = 0.675
 
 #######################################################
+
+#Living Metal Armor size L
+@csm_armor_lm_large = 9000
+@csm_armor_lm_hardening_large = 0.05
+@csm_armor_lm_cost_alloy_large = 300
+@csm_armor_lm_lm_cost_large = 15
+@csm_armor_lm_upkeep_alloys_large = 0.5
+@csm_armor_lm_upkeep_energy_large = 2.5
+
+#Living Metal Armor size M
+@csm_armor_lm_medium = 4500
+@csm_armor_lm_hardening_medium = 0.05
+@csm_armor_lm_cost_alloy_medium = 150
+@csm_armor_lm_lm_cost_medium = 15
+@csm_armor_lm_upkeep_alloys_medium = 0.25
+@csm_armor_lm_upkeep_energy_medium = 1.25
+
+#Living Metal Armor size S
+@csm_armor_lm_small = 2250
+@csm_armor_lm_hardening_small = 0.05
+@csm_armor_lm_cost_alloy_small = 75
+@csm_armor_lm_lm_cost_small = 5
+@csm_armor_lm_upkeep_alloys_small = 0.125
+@csm_armor_lm_upkeep_energy_small = 0.675
+
+#######################################################

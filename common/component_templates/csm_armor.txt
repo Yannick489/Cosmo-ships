@@ -7,7 +7,7 @@
 utility_component_template = { # Large
 	key = "LARGE_ARCHAEO_ARMOR_CSM_2"
 	size = large
-	icon = "GFX_ship_part_archaeo_armor"
+	icon = "GFX_csm_archaeo_armor_2"
 	icon_frame = 1
 	modifier = {
 		ship_armor_add = @csm_armor_archaeo_2_large
@@ -74,7 +74,7 @@ utility_component_template = { # Large
 utility_component_template = { # Medium
 	key = "MEDIUM_ARCHAEO_ARMOR_CSM_2"
 	size = medium
-	icon = "GFX_ship_part_archaeo_armor"
+	icon = "GFX_csm_archaeo_armor_2"
 	icon_frame = 1
 	modifier = {
 		ship_armor_add = @csm_armor_archaeo_2_medium
@@ -141,7 +141,7 @@ utility_component_template = { # Medium
 utility_component_template = { # Small
 	key = "SMALL_ARCHAEO_ARMOR_CSM_2"
 	size = small
-	icon = "GFX_ship_part_archaeo_armor"
+	icon = "GFX_csm_archaeo_armor_2"
 	icon_frame = 1
 	modifier = {
 		ship_armor_add = @csm_armor_archaeo_2_small
@@ -208,6 +208,169 @@ utility_component_template = { # Small
 #######################################################
 #Living Metal Armor
 #######################################################
+
+utility_component_template = { # Large
+	key = "LARGE_LM_ARMOR_CSM"
+	size = large
+	icon = "GFX_csm_living_metal_armor"
+	icon_frame = 1
+	modifier = {
+		ship_armor_add = @csm_armor_lm_large
+		ship_armor_hardening_add = @csm_armor_lm_hardening_large
+	}
+	prerequisites = { "tech_csm_lm_armor" }
+	component_set = "LIVING_METAL_CSM"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @csm_armor_lm_cost_alloy_large
+			sr_living_metal = @csm_armor_lm_lm_cost_large
+		}
+		upkeep = {
+			energy = @csm_armor_lm_upkeep_energy_large
+			alloys = @csm_armor_lm_upkeep_alloys_large
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			add = @T5_weight
+			owner = { has_ascension_perk = ap_archaeoengineers }
+		}
+		modifier = {
+			factor = 0.0
+			owner = {
+				has_monthly_income = {
+					resource = minor_artifacts
+					value < 3
+				}
+			}
+		}
+		modifier = {
+			factor = 1.3
+			owner = {
+				resource_stockpile_compare = {
+					resource = minor_artifacts
+					value > 250
+				}
+			}
+		}
+		inline_script = {
+			script = ship_components/weights/roles_stealth
+			MULT = 1.5
+		}
+	}
+}
+
+utility_component_template = { # Medium
+	key = "MEDIUM_LM_ARMOR_CSM"
+	size = medium
+	icon = "GFX_csm_living_metal_armor"
+	icon_frame = 1
+	modifier = {
+		ship_armor_add = @csm_armor_lm_medium
+		ship_armor_hardening_add = @csm_armor_lm_hardening_medium
+	}
+	prerequisites = { "tech_csm_lm_armor" }
+	component_set = "LIVING_METAL_CSM"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @csm_armor_lm_cost_alloy_medium
+			sr_living_metal = @csm_armor_lm_lm_cost_medium
+		}
+		upkeep = {
+			energy = @csm_armor_lm_upkeep_energy_medium
+			alloys = @csm_armor_lm_upkeep_alloys_medium
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			add = @T5_weight
+			owner = { has_ascension_perk = ap_archaeoengineers }
+		}
+		modifier = {
+			factor = 0.0
+			owner = {
+				has_monthly_income = {
+					resource = minor_artifacts
+					value < 3
+				}
+			}
+		}
+		modifier = {
+			factor = 1.3
+			owner = {
+				resource_stockpile_compare = {
+					resource = minor_artifacts
+					value > 250
+				}
+			}
+		}
+		inline_script = {
+			script = ship_components/weights/roles_stealth
+			MULT = 1.5
+		}
+	}
+}
+
+utility_component_template = { # Small
+	key = "SMALL_LM_ARMOR_CSM"
+	size = small
+	icon = "GFX_csm_living_metal_armor"
+	icon_frame = 1
+	modifier = {
+		ship_armor_add = @csm_armor_lm_small
+		ship_armor_hardening_add = @csm_armor_lm_hardening_small
+	}
+
+	prerequisites = { "tech_csm_lm_armor" }
+	component_set = "LIVING_METAL_CSM"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @csm_armor_lm_cost_alloy_small
+			sr_living_metal = @csm_armor_lm_lm_cost_small
+		}
+		upkeep = {
+			energy = @csm_armor_lm_upkeep_energy_small
+			alloys = @csm_armor_lm_upkeep_alloys_small
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			add = @T5_weight
+			owner = { has_ascension_perk = ap_archaeoengineers }
+		}
+		modifier = {
+			factor = 0.0
+			owner = {
+				has_monthly_income = {
+					resource = minor_artifacts
+					value < 3
+				}
+			}
+		}
+		modifier = {
+			factor = 1.3
+			owner = {
+				resource_stockpile_compare = {
+					resource = minor_artifacts
+					value > 250
+				}
+			}
+		}
+		inline_script = {
+			script = ship_components/weights/roles_stealth
+			MULT = 1.5
+		}
+	}
+}
 
 #######################################################
 #Nanites Armor

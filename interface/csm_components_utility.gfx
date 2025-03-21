@@ -1,0 +1,19 @@
+# archaeo components
+spriteTypes = {
+	spriteType = {
+		name = "GFX_csm_archaeo_shield_2"
+		textureFile = "gfx/interface/icons/ship_parts/csm_archaeo_shield_2.dds"
+	}
+	spriteType = {
+		name = "GFX_csm_archaeo_armor_2"
+		textureFile = "gfx/interface/icons/ship_parts/csm_archaeo_armor_2.dds"
+	}
+}
+
+# armor components
+spriteTypes = {
+	spriteType = {
+		name = "GFX_csm_living_metal_armor"
+		textureFile = "gfx/interface/icons/ship_parts/csm_living_metal_armor.dds"
+	}
+}
