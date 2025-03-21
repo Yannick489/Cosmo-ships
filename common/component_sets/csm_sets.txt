@@ -1,11 +1,17 @@
 component_set = {
 	key = "ARCHAEO_SHIELD_CSM_2"
 
-	icon = "GFX_ship_part_archaeo_shield"
+	icon = "GFX_csm_archaeo_shield_2"
 }
 
 component_set = {
 	key = "ARCHAEO_ARMOR_CSM_2"
 
-	icon = "GFX_ship_part_archaeo_armor"
+	icon = "GFX_csm_archaeo_armor_2"
+}
+
+component_set = {
+	key = "LIVING_METAL_CSM"
+
+	icon = "GFX_csm_living_metal_armor"
 }

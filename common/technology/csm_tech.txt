@@ -6,7 +6,7 @@
 #T2 Archaeo Shields
 tech_csm_archaeo_shields_t2= {
 	area = physics
-	cost = @avctier10cost3
+	cost = @avctier10cost1
 	tier = 10
 	is_rare = yes
 	category = { field_manipulation }
@@ -50,7 +50,7 @@ tech_csm_archaeo_shields_t2= {
 #T2 Archaeo Armor
 tech_csm_archaeo_armor_t2= {
 	area = engineering
-	cost = @avctier10cost3
+	cost = @avctier10cost1
 	tier = 10
 	is_rare = yes
 	category = { materials }
@@ -88,7 +88,7 @@ tech_csm_archaeo_armor_t2= {
 
 tech_csm_lm_armor = {
 	area = engineering
-	cost = @avctier10cost3
+	cost = @avctier10cost1
 	tier = 10
 	is_rare = yes
 	category = { materials }
