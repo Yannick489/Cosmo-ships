@@ -37,7 +37,13 @@ MEDIUM_LM_ARMOR_CSM: "Medium Living Metal Armor"
 SMALL_LM_ARMOR_CSM: "Small Living Metal Armor"
 
 tech_csm_nanites_armor: "Nanites Armor Technology"
-
+NANITES_ARMOR_CSM: "Nanites Armor"
 LARGE_NANITES_ARMOR_CSM: "Large Nanite Armor"
 MEDIUM_NANITES_ARMOR_CSM: "Medium Nanite Armor"
 SMALL_NANITES_ARMOR_CSM: "Small Nanite Armor"
+
+tech_csm_bio_armor: "Bio Armor Technology"
+BIO_ARMOR_CSM: "Bio Armor"
+LARGE_BIO_ARMOR_CSM: "Large Bio Armor"
+MEDIUM_BIO_ARMOR_CSM: "Medium Bio Armor"
+SMALL_BIO_ARMOR_CSM: "Small Bio Armor"

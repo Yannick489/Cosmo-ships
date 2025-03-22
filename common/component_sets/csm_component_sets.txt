@@ -21,3 +21,9 @@ component_set = {
 
 	icon = "GFX_csm_nanite_armor"
 }
+
+component_set = {
+	key = "BIO_ARMOR_CSM"
+
+	icon = "GFX_csm_bio_armor"
+}

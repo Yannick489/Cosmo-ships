@@ -93,7 +93,7 @@
 #Nanites Armor size L
 @csm_armor_nanites_large = 9000
 @csm_armor_nanites_static_regen_large = 30
-@csm_armor_nanites_additional_hullsize_large = 300
+@csm_armor_nanites_additional_hullsize_large = 2000
 @csm_armor_nanites_cost_alloy_large = 300
 @csm_armor_nanites_nanite_cost_large = 10
 @csm_armor_nanites_upkeep_alloys_large = 0.5
@@ -102,7 +102,7 @@
 #Nanites Armor size M
 @csm_armor_nanites_medium = 4500
 @csm_armor_nanites_static_regen_medium = 20
-@csm_armor_nanites_additional_hullsize_large = 200
+@csm_armor_nanites_additional_hullsize_medium = 1000
 @csm_armor_nanites_cost_alloy_medium = 150
 @csm_armor_nanites_nanite_cost_medium = 5
 @csm_armor_nanites_upkeep_alloys_medium = 0.25
@@ -111,12 +111,39 @@
 #Nanites Armor size S
 @csm_armor_nanites_small = 2250
 @csm_armor_nanites_static_regen_small = 10
-@csm_armor_nanites_additional_hullsize_large = 100
+@csm_armor_nanites_additional_hullsize_small = 500
 @csm_armor_nanites_cost_alloy_small = 75
 @csm_armor_nanites_nanite_cost_small = 2.5
 @csm_armor_nanites_upkeep_alloys_small = 0.125
 @csm_armor_nanites_upkeep_energy_small = 0.675
 
 #######################################################
-#???
+#Bio Armor
 #######################################################
+
+#Bio Armor size L
+@csm_armor_bio_large = 7500
+@csm_armor_bio_static_regen_large = 30
+@csm_armor_bio_additional_hullsize_large = 2000
+@csm_armor_bio_cost_alloy_large = 300
+@csm_armor_bio_food_cost_large = 1000
+@csm_armor_bio_upkeep_alloys_large = 0.5
+@csm_armor_bio_upkeep_food_large = 10
+
+#Bio Armor size M
+@csm_armor_bio_medium = 3750
+@csm_armor_bio_static_regen_medium = 20
+@csm_armor_bio_additional_hullsize_medium = 1000
+@csm_armor_bio_cost_alloy_medium = 300
+@csm_armor_bio_food_cost_medium = 500
+@csm_armor_bio_upkeep_alloys_medium = 0.25
+@csm_armor_bio_upkeep_food_medium = 5
+
+#Bio Armor size S
+@csm_armor_bio_small = 1800
+@csm_armor_bio_static_regen_small = 10
+@csm_armor_bio_additional_hullsize_small = 500
+@csm_armor_bio_cost_alloy_small = 300
+@csm_armor_bio_food_cost_small = 250
+@csm_armor_bio_upkeep_alloys_small = 0.25
+@csm_armor_bio_upkeep_food_small = 2.5
