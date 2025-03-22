@@ -7,3 +7,5 @@ Zro Schilde
 Dark Matter Schilde
 
 Bio Armor, Strikcraft
+
+Ascension Perk für Psionics um Clone Vats freizuschalten
