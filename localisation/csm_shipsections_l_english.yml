@@ -5,7 +5,14 @@ COSMO_CRISIS_BATTLECRUISER_CSM_CARRIER: "CSM Carrier"
 COSMO_CRISIS_BATTLECRUISER_CSM_MISSILE: "CSM Missile"
 COSMO_CRISIS_BATTLECRUISER_CSM_TANK: "CSM Tank"
 
-tech_csm_archaeo_shields_t2: "Tier 2 Archaeo Shields Tech"
+tech_csm_cosmo_sections_upgrade: "CSM Upgraded Cosmo Sections"
+COSMO_CRISIS_TITAN_CSM_ALLROUNDER: "CSM Allrounder"
+COSMO_CRISIS_BATTLECRUISER_CSM_ARTY_2: "CSM Upgraded Arty"
+COSMO_CRISIS_BATTLECRUISER_CSM_CARRIER_2: "CSM Upgraded Carrier"
+COSMO_CRISIS_BATTLECRUISER_CSM_MISSILE_2: "CSM Upgraded Missile"
+COSMO_CRISIS_BATTLECRUISER_CSM_TANK_2: "CSM Upgraded Tank"
+
+tech_csm_archaeo_shields_t2: "Tier 2 Archaeo Shields Technology"
 ARCHAEO_SHIELD_CSM_2: "Archaeo Shield T2"
 LARGE_ARCHAEO_SHIELD_CSM_2: "Large Archaeo Shield T2"
 MEDIUM_ARCHAEO_SHIELD_CSM_2: "Medium Archaeo Shield T2"
@@ -14,7 +21,7 @@ tt_csm_LARGE_ARCHAEO_SHIELD_AP: "From Archaeo-Engineers:\nShield Hit Points §G+
 tt_csm_MEDIUM_ARCHAEO_SHIELD_AP: "From Archaeo-Engineers:\nShield Hit Points §G+1250§!"
 tt_csm_SMALL_ARCHAEO_SHIELD_AP: "From Archaeo-Engineers:\nShield Hit Points §G+625§!"
 
-tech_csm_archaeo_armor_t2: "Tier 2 Archaeo Armor Tech"
+tech_csm_archaeo_armor_t2: "Tier 2 Archaeo Armor Technology"
 ARCHAEO_ARMOR_CSM_2: "Archaeo Armor T2"
 LARGE_ARCHAEO_ARMOR_CSM_2: "Large Archaeo Armor T2"
 MEDIUM_ARCHAEO_ARMOR_CSM_2: "Medium Archaeo Armor T2"
@@ -23,8 +30,14 @@ tt_csm_LARGE_ARCHAEO_ARMOR_AP: "From Archaeo-Engineers:\nArmor Hit Points §G+35
 tt_csm_MEDIUM_ARCHAEO_ARMOR_AP: "From Archaeo-Engineers:\nArmor Hit Points §G+1750§!"
 tt_csm_SMALL_ARCHAEO_ARMOR_AP: "From Archaeo-Engineers:\nArmor Hit Points §G+900§!"
 
-tech_csm_lm_armor: "Living Metal Armor Tech"
+tech_csm_lm_armor: "Living Metal Armor Technology"
 LIVING_METAL_CSM: "Living Metal Armor"
 LARGE_LM_ARMOR_CSM: "Large Living Metal Armor"
 MEDIUM_LM_ARMOR_CSM: "Medium Living Metal Armor"
 SMALL_LM_ARMOR_CSM: "Small Living Metal Armor"
+
+tech_csm_nanites_armor: "Nanites Armor Technology"
+
+LARGE_NANITES_ARMOR_CSM: "Large Nanite Armor"
+MEDIUM_NANITES_ARMOR_CSM: "Medium Nanite Armor"
+SMALL_NANITES_ARMOR_CSM: "Small Nanite Armor"

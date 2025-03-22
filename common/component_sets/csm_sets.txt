@@ -15,3 +15,9 @@ component_set = {
 
 	icon = "GFX_csm_living_metal_armor"
 }
+
+component_set = {
+	key = "NANITES_ARMOR_CSM"
+
+	icon = "GFX_csm_nanite_armor"
+}

@@ -16,4 +16,8 @@ spriteTypes = {
 		name = "GFX_csm_living_metal_armor"
 		textureFile = "gfx/interface/icons/ship_parts/csm_living_metal_armor.dds"
 	}
+	spriteType = {
+		name = "GFX_csm_nanite_armor"
+		textureFile = "gfx/interface/icons/ship_parts/csm_nanite_armor.dds"
+	}
 }

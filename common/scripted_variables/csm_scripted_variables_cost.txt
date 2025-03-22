@@ -7,7 +7,7 @@
 @csm_shield_archaeo_2_bonus_large = 2500
 @csm_shield_archaeo_2_reg_large = 30
 @csm_shield_archaeo_2_cost_alloy_large = 150
-@csm_shield_archaeo_2_cost_artifacts_large = 16
+@csm_shield_archaeo_2_cost_artifacts_large = 12
 @csm_shield_archaeo_2_upkeep_alloys_large = 0.33
 @csm_shield_archaeo_2_upkeep_energy_large = 1.67
 @csm_shield_archaeo_2_power_large = -650
@@ -17,7 +17,7 @@
 @csm_shield_archaeo_2_bonus_medium = 1250
 @csm_shield_archaeo_2_reg_medium = 15
 @csm_shield_archaeo_2_cost_alloy_medium = 70
-@csm_shield_archaeo_2_cost_artifacts_medium = 8
+@csm_shield_archaeo_2_cost_artifacts_medium = 6
 @csm_shield_archaeo_2_upkeep_alloys_medium = 0.165
 @csm_shield_archaeo_2_upkeep_energy_medium = 0.8
 @csm_shield_archaeo_2_power_medium = -325
@@ -27,7 +27,7 @@
 @csm_shield_archaeo_2_bonus_small = 625
 @csm_shield_archaeo_2_reg_small= 7.5
 @csm_shield_archaeo_2_cost_alloy_small = 35
-@csm_shield_archaeo_2_cost_artifacts_small = 4
+@csm_shield_archaeo_2_cost_artifacts_small = 3
 @csm_shield_archaeo_2_upkeep_alloys_small = 0.08
 @csm_shield_archaeo_2_upkeep_energy_small = 0.4
 @csm_shield_archaeo_2_power_small = -160
@@ -38,7 +38,7 @@
 @csm_armor_archaeo_2_large = 6500
 @csm_armor_archaeo_2_bonus_large = 3500
 @csm_armor_archaeo_2_cost_alloy_large = 300
-@csm_armor_archaeo_2_cost_artifacts_large = 16
+@csm_armor_archaeo_2_cost_artifacts_large = 12
 @csm_armor_archaeo_2_upkeep_alloys_large = 0.5
 @csm_armor_archaeo_2_upkeep_energy_large = 2.5
 
@@ -46,7 +46,7 @@
 @csm_armor_archaeo_2_medium = 3250
 @csm_armor_archaeo_2_bonus_medium = 1750
 @csm_armor_archaeo_2_cost_alloy_medium = 150
-@csm_armor_archaeo_2_cost_artifacts_medium = 8
+@csm_armor_archaeo_2_cost_artifacts_medium = 6
 @csm_armor_archaeo_2_upkeep_alloys_medium = 0.25
 @csm_armor_archaeo_2_upkeep_energy_medium = 1.25
 
@@ -54,17 +54,19 @@
 @csm_armor_archaeo_2_small = 1600
 @csm_armor_archaeo_2_bonus_small = 900
 @csm_armor_archaeo_2_cost_alloy_small = 75
-@csm_armor_archaeo_2_cost_artifacts_small = 4
+@csm_armor_archaeo_2_cost_artifacts_small = 3
 @csm_armor_archaeo_2_upkeep_alloys_small = 0.125
 @csm_armor_archaeo_2_upkeep_energy_small = 0.675
 
+#######################################################
+#Living Metal Armor
 #######################################################
 
 #Living Metal Armor size L
 @csm_armor_lm_large = 9000
 @csm_armor_lm_hardening_large = 0.05
 @csm_armor_lm_cost_alloy_large = 300
-@csm_armor_lm_lm_cost_large = 15
+@csm_armor_lm_lm_cost_large = 10
 @csm_armor_lm_upkeep_alloys_large = 0.5
 @csm_armor_lm_upkeep_energy_large = 2.5
 
@@ -72,7 +74,7 @@
 @csm_armor_lm_medium = 4500
 @csm_armor_lm_hardening_medium = 0.05
 @csm_armor_lm_cost_alloy_medium = 150
-@csm_armor_lm_lm_cost_medium = 15
+@csm_armor_lm_lm_cost_medium = 5
 @csm_armor_lm_upkeep_alloys_medium = 0.25
 @csm_armor_lm_upkeep_energy_medium = 1.25
 
@@ -80,8 +82,41 @@
 @csm_armor_lm_small = 2250
 @csm_armor_lm_hardening_small = 0.05
 @csm_armor_lm_cost_alloy_small = 75
-@csm_armor_lm_lm_cost_small = 5
+@csm_armor_lm_lm_cost_small = 2.5
 @csm_armor_lm_upkeep_alloys_small = 0.125
 @csm_armor_lm_upkeep_energy_small = 0.675
 
+#######################################################
+#Nanites Armor
+#######################################################
+
+#Nanites Armor size L
+@csm_armor_nanites_large = 9000
+@csm_armor_nanites_static_regen_large = 30
+@csm_armor_nanites_additional_hullsize_large = 300
+@csm_armor_nanites_cost_alloy_large = 300
+@csm_armor_nanites_nanite_cost_large = 10
+@csm_armor_nanites_upkeep_alloys_large = 0.5
+@csm_armor_nanites_upkeep_energy_large = 2.5
+
+#Nanites Armor size M
+@csm_armor_nanites_medium = 4500
+@csm_armor_nanites_static_regen_medium = 20
+@csm_armor_nanites_additional_hullsize_large = 200
+@csm_armor_nanites_cost_alloy_medium = 150
+@csm_armor_nanites_nanite_cost_medium = 5
+@csm_armor_nanites_upkeep_alloys_medium = 0.25
+@csm_armor_nanites_upkeep_energy_medium = 1.25
+
+#Nanites Armor size S
+@csm_armor_nanites_small = 2250
+@csm_armor_nanites_static_regen_small = 10
+@csm_armor_nanites_additional_hullsize_large = 100
+@csm_armor_nanites_cost_alloy_small = 75
+@csm_armor_nanites_nanite_cost_small = 2.5
+@csm_armor_nanites_upkeep_alloys_small = 0.125
+@csm_armor_nanites_upkeep_energy_small = 0.675
+
+#######################################################
+#???
 #######################################################
