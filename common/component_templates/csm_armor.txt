@@ -12,6 +12,9 @@ utility_component_template = { # Large
 	modifier = {
 		ship_armor_add = @csm_armor_archaeo_2_large
 	}
+	ship_modifier = {
+		ship_armor_hardening_add = 0.10
+	}
 	custom_tooltip = tt_csm_LARGE_ARCHAEO_ARMOR_AP
 	triggered_ship_design_modifier = {
 		potential = {
@@ -79,6 +82,9 @@ utility_component_template = { # Medium
 	modifier = {
 		ship_armor_add = @csm_armor_archaeo_2_medium
 	}
+	ship_modifier = {
+		ship_armor_hardening_add = 0.10
+	}
 	custom_tooltip = tt_csm_MEDIUM_ARCHAEO_ARMOR_AP
 	triggered_ship_design_modifier = {
 		potential = {
@@ -145,6 +151,9 @@ utility_component_template = { # Small
 	icon_frame = 1
 	modifier = {
 		ship_armor_add = @csm_armor_archaeo_2_small
+	}
+	ship_modifier = {
+		ship_armor_hardening_add = 0.10
 	}
 	custom_tooltip = tt_csm_SMALL_ARCHAEO_ARMOR_AP
 	triggered_ship_design_modifier = {
@@ -386,6 +395,9 @@ utility_component_template = { # Large
 		ship_armor_regen_add_static = @csm_armor_nanites_static_regen_large
 		ship_hull_add = @csm_armor_nanites_additional_hullsize_large
 	}
+	ship_modifier = {
+		ship_armor_hardening_add = 0.10
+	}
 	prerequisites = { "tech_csm_nanites_armor" }
 	component_set = "NANITES_ARMOR_CSM"
 	resources = {
@@ -441,6 +453,9 @@ utility_component_template = { # Medium
 		ship_armor_regen_add_static = @csm_armor_nanites_static_regen_medium
 		ship_hull_add = @csm_armor_nanites_additional_hullsize_medium
 	}
+	ship_modifier = {
+		ship_armor_hardening_add = 0.10
+	}
 	prerequisites = { "tech_csm_nanites_armor" }
 	component_set = "NANITES_ARMOR_CSM"
 	resources = {
@@ -495,6 +510,9 @@ utility_component_template = { # Small
 		ship_armor_add = @csm_armor_nanites_small
 		ship_armor_regen_add_static = @csm_armor_nanites_static_regen_small
 		ship_hull_add = @csm_armor_nanites_additional_hullsize_small
+	}
+	ship_modifier = {
+		ship_armor_hardening_add = 0.10
 	}
 
 	prerequisites = { "tech_csm_nanites_armor" }
